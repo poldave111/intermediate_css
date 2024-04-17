@@ -1,0 +1,37 @@
+.header {
+    background: var(--color-four);
+    color: var(--color-one);
+    min-height: 400px; 
+    display: flex;
+    font-family: var(--font-roboto); 
+}
+
+.splash-inner {
+    margin: auto;
+    max-width: 70%;
+}
+
+.page-title {
+    margin: 0; 
+    font-size: 72px; 
+    word-spacing: -24px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    span {
+        font-family: var(--font-inconsolata);
+      
+    }
+}
+
+.page-subtitle {
+    margin: 24px 0; 
+    font-weight: 400; 
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .splash-inner {
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,11 @@
+.box-container {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .box-container {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+}
